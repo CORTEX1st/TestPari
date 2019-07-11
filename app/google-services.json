@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "1042030124830",
+    "firebase_url": "https://bandungtravel-cc82e.firebaseio.com",
+    "project_id": "bandungtravel-cc82e",
+    "storage_bucket": "bandungtravel-cc82e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042030124830:android:eb84d256052411c9",
+        "android_client_info": {
+          "package_name": "com.example.bandung_travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042030124830-p9hsae7oomeqkjunq0bu78l2c8j790dm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bandung_travel",
+            "certificate_hash": "5321c85a7918b6ef3ed06c0f1ff5164d6cf7685b"
+          }
+        },
+        {
+          "client_id": "1042030124830-s36ig33fda7omq3jibkacv0roaobgq03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9aPQMfUqRG9S6K1LSk1xY9pRqCn4yp74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042030124830-s36ig33fda7omq3jibkacv0roaobgq03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042030124830:android:09b6244dfb08a105",
+        "android_client_info": {
+          "package_name": "com.example.bandungfinalpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042030124830-s36ig33fda7omq3jibkacv0roaobgq03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9aPQMfUqRG9S6K1LSk1xY9pRqCn4yp74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042030124830-s36ig33fda7omq3jibkacv0roaobgq03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042030124830:android:0f69828df4aeb4c3",
+        "android_client_info": {
+          "package_name": "com.example.bandungtravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042030124830-s36ig33fda7omq3jibkacv0roaobgq03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9aPQMfUqRG9S6K1LSk1xY9pRqCn4yp74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042030124830-s36ig33fda7omq3jibkacv0roaobgq03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

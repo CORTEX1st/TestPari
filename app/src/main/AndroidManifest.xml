@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bandungfinalpro">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCsycYczVwL6K9sXCblaWzkyaMd8om66Vg" />
+        <activity android:name=".penginapandetail"></activity>
+        <activity android:name=".penginapan" />
+        <activity android:name=".transportasidetail" />
+        <activity android:name=".kulinerdetail" />
+        <activity android:name=".pariwisatadetail" />
+        <activity android:name=".transportasi" />
+        <activity android:name=".kuliner" />
+        <activity android:name=".pariwisata" />
+        <activity android:name=".home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

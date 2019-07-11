@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#ffff"
+    android:padding="10dp"
+    tools:context=".transportasidetail"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/root_layout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:text="Title"
+            android:textStyle="bold"
+            android:paddingBottom="7dp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/image"
+            android:background="#d000" />
+
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:text="desc"
+            android:paddingTop="7dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call_black_24dp"
+            android:id="@+id/dial"
+            android:paddingTop="13dp"
+            android:onClick="onClick"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telephone"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:paddingBottom="13dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_add_location_black_24dp"
+                android:id="@+id/sc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="alamat"
+                android:layout_alignLeft="@id/sc"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000"
+                android:id="@+id/alamat"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="7dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_access_time_black_24dp"
+                android:id="@+id/sr"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="waktu"
+                android:layout_alignLeft="@id/sr"
+                android:layout_marginLeft="25dp"
+                android:textColor="#000"
+                android:id="@+id/waktu"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
